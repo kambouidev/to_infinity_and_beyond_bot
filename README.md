@@ -16,16 +16,19 @@ Before you embark on this rocket adventure, make sure you have the following rea
 2. Install Python 3.11.5 with Pyenv:
 
 ```bash
+   # windows powershell
    pyenv install 3.11.5
 ```
 
 3. Set Python 3.11.5 as your local version using Pyenv and create a virtual environment:
 ```bash
-   pyenv local 3.11.5 virtualenv_name
+   # windows powershell
+   pyenv local 3.11.5
 ```
 4. Confirm that Python 3.11.5 is active:
 ```bash
-   python --version
+   # windows powershell
+   python version
 ```
 
 ### Creating Your Telegram Bot 🤖
