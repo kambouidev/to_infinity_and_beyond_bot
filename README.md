@@ -19,9 +19,9 @@ Before you embark on this rocket adventure, make sure you have the following rea
    pyenv install 3.11.5
 ```
 
-3. Set Python 3.11.5 as your local version (or project-specific version if you prefer) using Pyenv:
+3. Set Python 3.11.5 as your local version using Pyenv and create a virtual environment:
 ```bash
-   pyenv global 3.11.5
+   pyenv local 3.11.5 virtualenv_name
 ```
 4. Confirm that Python 3.11.5 is active:
 ```bash
@@ -51,6 +51,9 @@ Before you embark on this rocket adventure, make sure you have the following rea
 ```
 
 5. Now, it's time to configure your environment. Create and fill the .env file with your settings:
+
+> For an example, refer to the .env-template file. You can find an example configuration there.
+
 
 ```bash
 # .env
