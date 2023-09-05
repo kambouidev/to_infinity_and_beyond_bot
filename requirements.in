@@ -2,3 +2,4 @@ python-telegram-bot
 django
 requests
 psycopg2-binary
+python-decouple
